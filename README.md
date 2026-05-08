@@ -16,15 +16,15 @@
 - 可视化：Matplotlib 训练曲线绘制
 
 ## 核心功能
-1.支持树叶数据集自动加载、训练集 / 验证集划分
-2.自定义Dataset与DataLoader批量高效读取
-3.多类型数据增强提升模型泛化能力
-4.自定义ResNet残差网络从零训练
-5.基于ImageNet预训练权重的ResNeXt50迁移学习
-6.分阶段冻结微调，保护预训练特征
-7.训练过程实时日志输出、最优模型保存
-8.训练损失与准确率曲线自动绘制与保存
-9.测试集自动预测并生成提交文件
+1. 支持树叶数据集自动加载、训练集 / 验证集划分
+2. 自定义Dataset与DataLoader批量高效读取
+3. 多类型数据增强提升模型泛化能力
+4. 自定义ResNet残差网络从零训练
+5. 基于ImageNet预训练权重的ResNeXt50迁移学习
+6. 分阶段冻结微调，保护预训练特征
+7. 训练过程实时日志输出、最优模型保存
+8. 训练损失与准确率曲线自动绘制与保存
+9. 测试集自动预测并生成提交文件
 
 ## 运行环境
 Python 3.8~3.11
@@ -35,17 +35,17 @@ PyTorch ≥1.12
 pip install -r requirements.txt
 
 ## 运行方式
-1，将数据集 images、train.csv、test.csv 放入./data/目录</cd>
-2.安装依赖</cd>
-3.运行模型训练
+1. 将数据集 images、train.csv、test.csv 放入./data/目录
+2. 安装依赖
+3. 运行模型训练
 python resnet.py #自定义 ResNet 模型
 python resnext.py #ResNeXt50 迁移学习模型
 
 ## 注意事项
-首次运行会自动下载 ResNeXt50 预训练权重
-如显存不足，可适当调小 BATCH_SIZE
-数据集路径必须正确，否则无法加载图像
-训练好的最优模型会自动保存为 resnet_best.pth/resnext_best.pth
+1. 首次运行会自动下载 ResNeXt50 预训练权重
+2. 如显存不足，可适当调小BATCH_SIZE
+3. 数据集路径必须正确，否则无法加载图像
+4. 训练好的最优模型会自动保存为 resnet_best.pth/resnext_best.pth
 
 ## 🌄训练曲线
 <img src="demo1.png" width="500" alt="ResNext50准确率曲线">
