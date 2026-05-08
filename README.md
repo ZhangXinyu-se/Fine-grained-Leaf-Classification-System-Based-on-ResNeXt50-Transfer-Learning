@@ -51,7 +51,7 @@ python resnext.py #ResNeXt50 迁移学习模型
 <img src="demo1.png" width="500" alt="ResNext50准确率曲线">
 <p >准确率曲线</p>
 <img src="demo2.png" width="500" alt="ResNext50损失曲线">
-<p >准确率曲线</p>
+<p >损失曲线</p>
 
 
 
