@@ -27,9 +27,9 @@
 9. 测试集自动预测并生成提交文件
 
 ## 运行环境
-Python 3.8~3.11
-PyTorch ≥1.12
-支持GPU/CPU运行
+- Python 3.8~3.11
+- PyTorch ≥1.12
+- 支持GPU/CPU运行
 
 ## 依赖安装
 pip install -r requirements.txt
@@ -49,8 +49,9 @@ python resnext.py #ResNeXt50 迁移学习模型
 
 ## 🌄训练曲线
 <img src="demo1.png" width="500" alt="ResNext50准确率曲线">
-
+<p >准确率曲线</p>
 <img src="demo2.png" width="500" alt="ResNext50损失曲线">
+<p >准确率曲线</p>
 
 
 
