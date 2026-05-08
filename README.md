@@ -35,8 +35,8 @@ PyTorch ≥1.12
 pip install -r requirements.txt
 
 ## 运行方式
-1，将数据集 images、train.csv、test.csv 放入./data/目录
-2.安装依赖
+1，将数据集 images、train.csv、test.csv 放入./data/目录</cd>
+2.安装依赖</cd>
 3.运行模型训练
 python resnet.py #自定义 ResNet 模型
 python resnext.py #ResNeXt50 迁移学习模型
