@@ -35,7 +35,7 @@
 pip install -r requirements.txt
 
 ## 运行方式
-1. 将数据集 images、train.csv、test.csv 放入./data/目录
+1. 将数据集 images（https://www.kaggle.com/competitions/classify-leaves/）、train.csv、test.csv 放入./data/目录
 2. 安装依赖
 3. 运行模型训练
 python resnet.py #自定义 ResNet 模型<br>
